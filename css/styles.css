@@ -1,0 +1,30 @@
+/* GLOBAL */
+body{
+	background: url("../img/bg.png");
+}
+
+/* LAYOUT */
+.container {
+	width: 90%;
+	background: red;
+	margin: 0 auto;
+}
+
+/* Adaptive Content */
+iframe, img {
+	max-width: 100%;
+	width: 100%;
+}
+
+article section {
+	width: 46%;
+	float: left;
+	padding: 2%;
+}
+
+/*Desktop Query */
+@media (min-width: 960px){
+	#home {
+		width: 300px;
+	}
+}
