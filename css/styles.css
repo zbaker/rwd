@@ -1,12 +1,28 @@
 /* GLOBAL */
 body{
 	background: url("../img/bg.png");
+	color: white;
 }
 
+h1, h2, h3{
+	font-family: 'PT Serif', serif;
+}
+
+li{
+	list-style-type: none;
+}
+
+a:link{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	float: left;
+	padding: 10px;
+}
 /* LAYOUT */
 .container {
 	width: 90%;
-	background: red;
+	background: #303636;
 	margin: 0 auto;
 }
 
@@ -17,9 +33,9 @@ iframe, img {
 }
 
 article section {
-	width: 46%;
+	width: 44%;
 	float: left;
-	padding: 2%;
+	padding: 3%;
 }
 
 /*Desktop Query */
@@ -36,8 +52,10 @@ article section {
 
 /* Phone Query */
 @media (max-width: 480px){
-	section{
-		float: left;
-	}
 
+	article section {
+		width: 96%;
+		float: none;
+		padding: 3%;
+	}
 }
