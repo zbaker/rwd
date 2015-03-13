@@ -28,3 +28,16 @@ article section {
 		width: 300px;
 	}
 }
+
+/* Tablet Query */
+@media (max-width: 768px){
+
+}
+
+/* Phone Query */
+@media (max-width: 480px){
+	section{
+		float: left;
+	}
+
+}
