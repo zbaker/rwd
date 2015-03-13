@@ -2,6 +2,7 @@
 body{
 	background: url("../img/bg.png");
 	color: white;
+	font-family: 'PT Sans', sans-serif;
 }
 
 h1, h2, h3{
@@ -12,13 +13,20 @@ li{
 	list-style-type: none;
 }
 
-a:link{
+nav a:link{
 	text-decoration: none;
 	color: white;
 	font-size: 20px;
 	float: left;
 	padding: 10px;
+	font-weight: bold; 
 }
+
+nav a:hover{
+	color: gray;
+	transition: color 1s ease-in-out;
+}
+
 /* LAYOUT */
 .container {
 	width: 90%;
